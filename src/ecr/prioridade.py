@@ -1,4 +1,8 @@
-from ecr.comport_comp import ComportComp
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
+from src.ecr.comport_comp import ComportComp
 
 # Este classe filtra as accoes por prioridade
 class Prioridade(ComportComp):

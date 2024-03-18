@@ -1,5 +1,10 @@
+
+import os
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 from abc import abstractmethod
-from ecr.comportamento import Comportamento
+from src.ecr.comportamento import Comportamento
 
 # Comportamento composto é um comportamento composto de varios comportamentos
 class ComportComp(Comportamento):
