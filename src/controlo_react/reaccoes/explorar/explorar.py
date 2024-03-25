@@ -1,9 +1,9 @@
 import os
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+sys.path.append('C:\\Users\\Francisco\\Desktop\\iasa_agente\\src') 
 
 
-from src.ecr.comportamento import Comportamento
+from ecr.comportamento import Comportamento
 
 class Explorar(Comportamento):
 
