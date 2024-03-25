@@ -1,17 +1,9 @@
 
-import os
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
-
+sys.path.append('C:\\Users\\Francisco\\Desktop\\iasa_agente\\src') 
 
 from ecr.resposta import Resposta
 from sae.agente.accao import Accao
-
-
-
-
-
-
 class RespostaMover(Resposta):
 
     # Chama-se o constructor da classe resposta
